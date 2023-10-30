@@ -1,0 +1,59 @@
+.cadastro{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(25, 195, 125);
+}
+.tituloCadastro{
+    transition: 1s;
+    color: #ffffff;
+}
+.tituloCadastro:hover{
+    color: rgb(25, 195, 125) ;
+}
+.cadastro-Form{
+    margin-top: 3rem;
+    height: auto;
+    width: 30rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1.25rem 1rem;
+}
+.subtitulo-Form{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.information-Form{
+   
+}
+label{
+    margin-bottom: 1rem;
+}
+
+input::placeholder{
+    font-size: 0.9rem;
+    color: #C0C0C0;
+}
+
+
+.criar-Conta{
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: rgb(25, 195, 125);
+    border: 2px solid rgb(25, 195, 125) ;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    transition: 0.4s;
+  }
+  .criar-Conta:hover{
+    color: #ffffff;
+    background-color: rgb(25, 195, 125);
+  }

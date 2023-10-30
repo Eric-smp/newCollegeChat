@@ -1,0 +1,46 @@
+.tituloNav{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    cursor: inherit;
+    transition: 1s;
+}
+.tituloNav:hover{
+  color: #FFDEAD;
+}
+
+/* navbar */
+.nav-bar {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 	#2E8B57;
+    color: #242443;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .contatos-nav{
+    height: 100%;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffff;
+    transition: 1s;
+}
+a:hover{
+  color: #FFDEAD;
+  text-decoration: underline;
+}
