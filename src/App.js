@@ -8,6 +8,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import Cadastrar from "./components/Cadastrar";
 
 
+
 const pages = [{id:1, name:'welcome'}, {id:2, name:'cadastrar'}, {id:3, name:'message'}]
 
 function App() {
@@ -25,11 +26,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {cadastro === 'welcome' && <Welcome routerPages={routerPage}/>}
+      {/* {cadastro === 'welcome' && <Welcome routerPages={routerPage}/>} */}
       {cadastro === 'cadastrar' && <Cadastrar voltar={voltar}/>}
       
       {!user ? (
-        <Welcome />
+        cadastro === 'welcome' && <Welcome routerPages={routerPage}/>
       ) : (
         <>
           <ChatBox />
