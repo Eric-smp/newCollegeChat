@@ -50,7 +50,6 @@
     border: none;
     border: 0.0625rem solid rgb(25, 195, 125);
     border-radius: 0.3125rem;
-    background:   linear-gradient(rgb(25, 195, 125), rgb(25, 195, 125)) center bottom 0.3125rem /calc(100% + 10rem) 0.125rem no-repeat;;
   }
   
   input:hover{
