@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes,Route } from "react-router-dom";
-import Home from "./pages/Home/home";
-import Cadastrar from "./pages/Cadastro/cadastro";
-import NomeGrupo from './pages/Grupo/index'
+import Home from "./pages/home";
+import Cadastrar from "./pages/cadastro";
+import NomeGrupo from './pages/grupo'
 
 function AppRoutes(){
     return(

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import './Welcome.css'
-import NavBar from "./NavBar";
-import GoogleSignin from "../img/btn_google_signin_dark_pressed_web.png";
-import { auth } from "../firebase";
+import './styles.css'
+import NavBar from "../NavBar";
+import { auth } from "../../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import { Link } from "react-router-dom";
 

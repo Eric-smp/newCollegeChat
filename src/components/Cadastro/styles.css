@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     padding: 1.25rem 1rem;
 }
 .subtitulo-Form{
@@ -50,8 +50,8 @@ input::placeholder{
     font-size: 1.3rem;
     background-color: transparent;
     color: rgb(25, 195, 125);
-    border: 2px solid rgb(25, 195, 125) ;
-    border-radius: 10px;
+    border: 0.125rem solid rgb(25, 195, 125) ;
+    border-radius: 0.625rem;
     margin-bottom: 0.5rem;
     transition: 0.4s;
   }

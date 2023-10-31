@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import NavBar from './NavBar'
-import './Cadastrar.css'
+import NavBar from '../NavBar'
+import './styles.css'
 import { Link } from 'react-router-dom'
 const Cadastrar = ({voltar}) => {
 

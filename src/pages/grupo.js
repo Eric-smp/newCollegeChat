@@ -1,4 +1,4 @@
-import NomeGrupo from "../../components/Grupo"
+import NomeGrupo from "../components/Grupos"
 export function nomeGrupoPage(){
     return(
         <NomeGrupo/>

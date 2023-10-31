@@ -1,5 +1,5 @@
-import NavBar from "./NavBar";
-import './Grupo.css'
+import NavBar from "../NavBar";
+import './styles.css'
 export function nomeGrupo(){
     return(
         <div>

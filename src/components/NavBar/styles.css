@@ -11,13 +11,13 @@
 
 /* navbar */
 .nav-bar {
-    padding: 10px 30px;
+    padding: 0.625rem  1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: 	#2E8B57;
     color: #242443;
-    height: 60px;
+    height: 3.75rem;
     position: fixed;
     left: 0;
     top: 0;
