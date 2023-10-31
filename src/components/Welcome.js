@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Welcome.css'
-// import NavBar from "./components/NavBar";
+import NavBar from "./NavBar";
 import GoogleSignin from "../img/btn_google_signin_dark_pressed_web.png";
 import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
@@ -27,15 +27,12 @@ const Welcome = ({routerPages}) => {
 
   return (
     <main className="welcome">
-      {/* <NavBar/> */}
-      
-      <h2 className="titulo-Welcome">Bem-vindo ao College Chat</h2>
+      <NavBar/>   
+      <h2 className="tituloWelcome">Bem-vindo ao College Chat</h2>
       
       <div className="content-Form">
-
         <form onSubmit={handleSubmit}>
           <h3 className="titulo-Form">Entre</h3>
-         
          
           <div className="information-Form">
             <label htmlFor="email">
@@ -55,7 +52,9 @@ const Welcome = ({routerPages}) => {
           
           <div className="acessConta">
           <button type="submit" value="Enviar" className="entrar" onClick={handleSubmit} >Entrar</button>
-          <button className="cadastrar" onClick={routerPages}>Cadastrar-se</button>
+            <Link to="/createLogin">
+            <button className="cadastrar" onClick={routerPages}>Cadastrar-se</button>
+            </Link>
 
           <button className="sign-in"  onClick={googleSignIn}>
             <img src="/googleIcon.png" alt="imagem" />

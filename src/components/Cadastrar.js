@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 import './Cadastrar.css'
+import { Link } from 'react-router-dom'
 const Cadastrar = ({voltar}) => {
 
   const [createEmail, setCreateEmail] = useState('')
@@ -18,7 +20,9 @@ const Cadastrar = ({voltar}) => {
   }
   return (
     <div className='cadastro'>
-      <h1 className='tituloCadastro'>Faça agora o seu cadastro</h1>
+      <NavBar/>
+
+      <h2 className='tituloCadastro'>Faça agora o seu cadastro</h2>
 
       <div className='cadastro-Form'>
         <form onSubmit={handleSubmit}>
@@ -48,7 +52,9 @@ const Cadastrar = ({voltar}) => {
 
         </form>
               <button type="submit" className='criar-Conta' onClick={handleSubmit}>Cadastrar-se</button>
+              <Link to="/">
               <button type="submit" className='criar-Conta' onClick={voltar}>Voltar</button>
+              </Link>
 
 
       </div>
