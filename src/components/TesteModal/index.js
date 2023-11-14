@@ -1,7 +1,19 @@
-export function TesteModal(){
-    return(
-        <h1>Olá mundo</h1>
-    )
+import './styles.css'
+export function TesteModal({isOpen}){
+
+    if(isOpen){
+        return(
+            <div className="contentModal">
+                <div className='informationForm'>
+                    <div className='headerForm'>
+                         <h1>Entre</h1>
+                    </div>
+                </div>
+            </div>
+         )
+    }else{
+    return null
+    }
 }
 
 

@@ -1,0 +1,168 @@
+import styled from "styled-components";
+
+export const Welcome = styled.div`
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+    width: 70%;
+    height: 100%;
+    padding: 1.5rem;
+    
+    
+    
+    .bodyInit{
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      h2{
+        font-size: 3rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+
+  .divisor{
+    margin:0rem 1rem ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   border-right: 0.0625rem solid blue;
+   
+  }
+
+}
+.bodySecundo{
+  margin-top: 3rem;
+}
+
+`
+
+
+
+
+
+
+
+
+/* welcome page
+.welcome {
+    padding: 1.875rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    color: rgb(25, 195, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .welcome :is(h2, p, img) {
+      margin-bottom: 1.25rem;
+  }
+  
+  
+  
+  .tituloWelcome{ 
+      font-size: 2.5rem;
+      color: #ffffff;
+  }
+  
+  .content-Form{
+    margin-top: 3rem;
+    height: auto;
+    width: 30rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3125rem;
+    padding: 1.25rem 1rem;
+  }
+  .titulo-Form{
+    font-size: 2rem;
+  }
+  
+  .information-Form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input{
+    background-color: transparent;
+    padding: 0rem 0.2rem;
+    height: 2.3rem;
+    width: 20rem;
+    border: none;
+    border: 0.0625rem solid rgb(25, 195, 125);
+    border-radius: 0.3125rem;
+  }
+  
+  input:hover{
+    border: none;
+  }
+  input:focus{
+    outline: none;
+  }
+  .input-Email{
+    margin-bottom: 1rem;
+  }
+  .input-Password{
+    margin-bottom:2rem ;
+  }
+  .esqueceuSenha{
+    font-size: 1rem;
+    color: 	rgb(25, 195, 125);
+  }
+  .esqueceuSenha:hover{
+    color: rgb(25, 195, 125);
+  }
+  .acessConta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .entrar{
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: rgb(25, 195, 125);
+    border: 0.125rem solid rgb(25, 195, 125) ;
+    border-radius: 0.625rem;
+    margin-bottom: 0.5rem;
+    transition: 0.4s;
+  }
+  .entrar:hover{
+    color: #ffffff;
+    background-color: rgb(25, 195, 125);
+  }
+  .cadastrar{
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: rgb(25, 195, 125);
+    border: 0.125rem solid rgb(25, 195, 125) ;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    transition: 0.4s;
+  }
+  .cadastrar:hover{
+    color: #ffffff;
+    background-color: rgb(25, 195, 125);
+  }
+  .sign-in{
+    border: none;
+    background-color: transparent;
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .sign-in img{
+    padding: 0;
+    height: 2.8125rem;
+    width: 3.125rem;
+  } */

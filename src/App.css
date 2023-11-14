@@ -84,9 +84,9 @@ input {
 .send-message {
   position: fixed;
   bottom: 0px;
-  width: 100%;
+  width: 100vw;
   padding: 20px 30px;
-  background-color: #4c768d;
+  background-color:     rgb(25, 195, 125, 0.8);
   display: flex;
 }
 .send-message > input {
@@ -112,7 +112,7 @@ input {
   padding: 5px 10px;
   border-radius: 0 5px 5px 0;
   color: #242443;
-  border: 1px solid #7cc5d9;
-  background-color: #7cc5d9;
+  border: 1px solid rgb(25, 195, 125, 0.8);
+  background-color:rgba(9, 236, 141, 0.336);
   font-weight: 600;
 }

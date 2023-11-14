@@ -20,7 +20,6 @@ const NavBar = () => {
 
   return (
     <nav className="nav-bar">
-      <p onClick={()=> console.log('Só entrar ')} >Entrar</p>
       <Link to="/">
       <h1 className="tituloNav" >College Chat</h1>
       </Link>
