@@ -23,7 +23,6 @@ const Message = () => {
   return (
     <form onSubmit={(event) => sendMessage(event)}  className="send-message">
       <input
-     
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
